@@ -1,4 +1,4 @@
-import 'package:flutter_application_2/onboarding/onboard_infor.dart';
+import 'package:budget_buddy/onboarding/onboard_infor.dart';
 
 class Items {
   List<OnboardInfor> items = [

@@ -1,6 +1,6 @@
+import 'package:budget_buddy/onboarding/home1.dart';
+import 'package:budget_buddy/onboarding/item.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_2/onboarding/home1.dart';
-import 'package:flutter_application_2/onboarding/item.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
@@ -105,7 +105,7 @@ class _OnBoardState extends State<OnBoard> {
 
           if (!mounted) return;
           Navigator.pushReplacement(
-              context, MaterialPageRoute(builder: (context) => Home()));
+              context, MaterialPageRoute(builder: (context) => const Home1()));
         },
         child: const Text(
           "Get Started",
